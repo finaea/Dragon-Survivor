@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.survivor.view.StatController">
+   <children>
+      <Pane layoutX="21.0" layoutY="284.0" opacity="0.28" prefHeight="268.0" prefWidth="355.0">
+         <children>
+            <GridPane layoutX="15.0" layoutY="16.0" prefHeight="227.0" prefWidth="328.0" style="-fx-grid-lines-visible: true;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="90.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="128.0" minWidth="10.0" prefWidth="107.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="131.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <GridPane layoutX="36.0" layoutY="300.0" prefHeight="227.0" prefWidth="328.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="90.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="128.0" minWidth="10.0" prefWidth="107.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="131.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label scaleX="1.5" scaleY="1.5" text="Hp" translateX="14.0" />
+            <Label scaleX="1.5" scaleY="1.5" text="Damage" translateX="20.0" GridPane.rowIndex="1" />
+            <Label scaleX="1.5" scaleY="1.5" text="Speed" translateX="18.0" GridPane.rowIndex="2" />
+            <Label scaleX="1.5" scaleY="1.5" text="Points" translateX="18.0" GridPane.rowIndex="4" />
+            <Label fx:id="pointLabel" scaleX="2.0" scaleY="2.0" text="Label" translateX="30.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="speedLabel" scaleX="1.5" scaleY="1.5" text="Label" translateX="30.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="damageLabel" scaleX="1.5" scaleY="1.5" text="Label" translateX="30.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="hpLabelLabel" scaleX="1.5" scaleY="1.5" text="Label" translateX="30.0" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" onAction="#upgradeDamage" text="Button" translateX="30.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#upgradeSpeed" text="Button" translateX="30.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <ProgressBar fx:id="progressBar" prefWidth="200.0" progress="0.0" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <Label fx:id="timeLabel" layoutX="185.0" layoutY="140.0" scaleX="5.0" scaleY="4.0" text="Time" />
+      <Label fx:id="responseLabel" alignment="CENTER" contentDisplay="TOP" layoutX="67.0" layoutY="578.0" prefHeight="147.0" prefWidth="267.0" style="-fx-font-size: 15; -fx-wrap-text: true; -fx-label-padding: 15; -fx-border-color: black;" text="text text text text  text  text  text  text  text  text  text  text  text  text ">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </Label>
+      <Circle fill="#ffffff00" layoutX="201.0" layoutY="149.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
