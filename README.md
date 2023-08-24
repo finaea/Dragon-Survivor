@@ -3,11 +3,11 @@ Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco and Hololive!
 
 The main menu:
 
-!(mainmenu)[main menu.png]
+![mainmenu](main menu.png)
 
 The gameplay:
 
-!(gameplay)[gameplay.png]
+![gameplay](gameplay.png)
 
 Credits (if you would like me to remove your work used for the game, email me directly on final0921x@gmail.com)
 
