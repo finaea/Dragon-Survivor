@@ -3,7 +3,7 @@ Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco and Hololive!
 
 The main menu:
 
-![mainmenu](main menu.png)
+![mainmenu](mainmenu.png)
 
 The gameplay:
 
