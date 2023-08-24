@@ -1,15 +1,15 @@
-A Vtuber fan game that was made for an university project assignment by id 21058045.
-Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco and Hololive!
+### A Vtuber fan game that was made for an university project assignment by id 21058045.
+### Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco and Hololive!
 
-The main menu:
+### The main menu:
 
 ![mainmenu](mainmenu.png)
 
-The gameplay:
+### The gameplay:
 
 ![gameplay](gameplay.png)
 
-Credits (if you would like me to remove your work used for the game, email me directly on final0921x@gmail.com)
+### Credits (if you would like me to remove your work used for the game, email me directly on final0921x@gmail.com)
 
 1.	gameBG.png - Game Background – Pixelart.Desert by Mengo Fedorov on Artstation - https://www.artstation.com/artwork/BmdzE8 
 
