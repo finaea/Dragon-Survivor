@@ -1,4 +1,5 @@
-### A Vtuber fan game that was made for an university project assignment by id 21058045. Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco from Hololive!
+### A top-down 2D shooting Vtuber fan game!
+### Featuring Selen Tatsuki from Nijisanji EN and Kiryu Coco from Hololive!
 
 
 ### The main menu:
